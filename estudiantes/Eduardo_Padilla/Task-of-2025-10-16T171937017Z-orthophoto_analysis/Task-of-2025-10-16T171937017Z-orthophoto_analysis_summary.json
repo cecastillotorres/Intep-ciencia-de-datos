@@ -1,0 +1,65 @@
+{
+  "input": "Task-of-2025-10-16T171937017Z-orthophoto.tif",
+  "bands": 6,
+  "width": 1673,
+  "height": 1457,
+  "crs": "EPSG:32618",
+  "transform": [
+    373124.94283207174,
+    0.049977578475344335,
+    0.0,
+    487397.3793756347,
+    0.0,
+    -0.049993476842807485
+  ],
+  "band_stats": {
+    "band_1": {
+      "min": 0.0,
+      "max": 65535.0,
+      "mean": 10868.927734375,
+      "std": 9792.27734375
+    },
+    "band_2": {
+      "min": 0.0,
+      "max": 65535.0,
+      "mean": 11604.103515625,
+      "std": 9935.2197265625
+    },
+    "band_3": {
+      "min": 0.0,
+      "max": 65535.0,
+      "mean": 10956.1572265625,
+      "std": 11168.306640625
+    },
+    "band_4": {
+      "min": 0.0,
+      "max": 65400.0,
+      "mean": 18757.046875,
+      "std": 13768.5556640625
+    },
+    "band_5": {
+      "min": 0.0,
+      "max": 63748.0,
+      "mean": 17248.361328125,
+      "std": 12741.87109375
+    },
+    "band_6": {
+      "min": 0.0,
+      "max": 255.0,
+      "mean": 194.9383544921875,
+      "std": 108.20499420166016
+    }
+  },
+  "ndvi": {
+    "computed": true,
+    "min": -1.0,
+    "max": 1.0,
+    "mean": 0.29780158400535583,
+    "std": 0.278268963098526,
+    "image": "Task-of-2025-10-16T171937017Z-orthophoto_analysis\\Task-of-2025-10-16T171937017Z-orthophoto_NDVI.png",
+    "veg_threshold": 0.3,
+    "vegetation_percent": 37.177284999226686,
+    "veg_mask": "Task-of-2025-10-16T171937017Z-orthophoto_analysis\\Task-of-2025-10-16T171937017Z-orthophoto_vegmask.png"
+  },
+  "rgb_image": "Task-of-2025-10-16T171937017Z-orthophoto_analysis\\Task-of-2025-10-16T171937017Z-orthophoto_RGB.png"
+}
