@@ -1,0 +1,19 @@
+================================================================================
+ÍNDICE DE ARCHIVOS GENERADOS - ANÁLISIS MULTIESPECTRAL
+================================================================================
+
+Fecha: 29/10/2025 03:06:20
+Archivo analizado: Task-of-2025-10-16T171937017Z-orthophoto.tif
+Directorio de salida: Task-of-2025-10-16T171937017Z-orthophoto_analysis
+
+IMÁGENES:
+  - Task-of-2025-10-16T171937017Z-orthophoto_comparativa.png (16.39 MB)
+  - Task-of-2025-10-16T171937017Z-orthophoto_informe_completo.png (1.26 MB)
+  - Task-of-2025-10-16T171937017Z-orthophoto_NDVI.png (1.55 MB)
+  - Task-of-2025-10-16T171937017Z-orthophoto_RGB.png (2.22 MB)
+  - Task-of-2025-10-16T171937017Z-orthophoto_vegmask.png (856.88 KB)
+
+DATOS:
+  - Task-of-2025-10-16T171937017Z-orthophoto_analysis_summary.json (1.62 KB)
+
+Total de archivos: 7
