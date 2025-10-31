@@ -1,0 +1,46 @@
+.DS_Store
+.env
+
+# macOS
+# Finder files
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual envs
+venv/
+env/
+.venv/
+
+# Environments
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and IDEs
+.vscode/
+.idea/
+
+# Byte-compiled / caches
+*.pyc
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Database
+*.sqlite3
+
+# OS generated
+Thumbs.db
+ehthumbs.db
