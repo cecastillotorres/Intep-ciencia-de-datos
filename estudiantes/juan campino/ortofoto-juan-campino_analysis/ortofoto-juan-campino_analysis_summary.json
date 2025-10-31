@@ -1,0 +1,65 @@
+{
+  "input": "ortofoto-juan-campino.tif",
+  "bands": 6,
+  "width": 4055,
+  "height": 2774,
+  "crs": "EPSG:32618",
+  "transform": [
+    373012.1691044242,
+    0.04999032204209353,
+    0.0,
+    487407.52379518095,
+    0.0,
+    -0.04999648664793283
+  ],
+  "band_stats": {
+    "band_1": {
+      "min": 0.0,
+      "max": 65535.0,
+      "mean": 12869.8857421875,
+      "std": 10545.0654296875
+    },
+    "band_2": {
+      "min": 0.0,
+      "max": 65535.0,
+      "mean": 13603.83203125,
+      "std": 10410.3994140625
+    },
+    "band_3": {
+      "min": 0.0,
+      "max": 65535.0,
+      "mean": 13733.990234375,
+      "std": 11529.1611328125
+    },
+    "band_4": {
+      "min": 0.0,
+      "max": 65535.0,
+      "mean": 19353.353515625,
+      "std": 14058.4384765625
+    },
+    "band_5": {
+      "min": 0.0,
+      "max": 65535.0,
+      "mean": 17549.2734375,
+      "std": 12666.2734375
+    },
+    "band_6": {
+      "min": 0.0,
+      "max": 255.0,
+      "mean": 193.8103790283203,
+      "std": 108.8998794555664
+    }
+  },
+  "ndvi": {
+    "computed": true,
+    "min": -1.0,
+    "max": 1.0,
+    "mean": 0.18362942337989807,
+    "std": 0.2651062607765198,
+    "image": "ortofoto-juan-campino_analysis\\ortofoto-juan-campino_NDVI.png",
+    "veg_threshold": 0.3,
+    "vegetation_percent": 24.240316769153768,
+    "veg_mask": "ortofoto-juan-campino_analysis\\ortofoto-juan-campino_vegmask.png"
+  },
+  "rgb_image": "ortofoto-juan-campino_analysis\\ortofoto-juan-campino_RGB.png"
+}
