@@ -1,0 +1,4 @@
+# Dependencias para ejecutar el código de Flink en HDInsight
+apache-flink>=1.17.0
+pandas>=2.0.0
+azure-storage-file-datalake>=12.0.0

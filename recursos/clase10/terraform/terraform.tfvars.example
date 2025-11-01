@@ -1,0 +1,41 @@
+# ============================================================================
+# Variables de ejemplo - terraform.tfvars
+# ============================================================================
+# Copia este archivo a terraform.tfvars y completa con tus valores
+# IMPORTANTE: No subas terraform.tfvars a git (ya está en .gitignore)
+# ============================================================================
+
+# Información del proyecto
+project_name = "intep-flink"
+environment  = "dev"
+location     = "East US"
+
+# Credenciales de administrador
+admin_username = "adminuser"
+# IMPORTANTE: Usa una contraseña segura con al menos:
+# - 10 caracteres
+# - 1 mayúscula
+# - 1 minúscula
+# - 1 número
+# - 1 símbolo
+admin_password = "ChangeMe!Passw0rd123"
+
+# Llave SSH pública (genera con: ssh-keygen -t rsa -b 4096)
+# Copia el contenido de ~/.ssh/id_rsa.pub aquí
+ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQ... tu-email@ejemplo.com"
+
+# Configuración del cluster
+cluster_tier         = "Standard"  # Standard o Premium
+head_node_vm_size    = "Standard_D3_v2"
+worker_node_vm_size  = "Standard_D3_v2"
+worker_node_count    = 2  # Mínimo 2 para alta disponibilidad
+
+# Tags personalizados
+tags = {
+  Project     = "INTEP Ciencia de Datos"
+  Environment = "Development"
+  ManagedBy   = "Terraform"
+  Purpose     = "Apache Flink Streaming Analytics"
+  Course      = "Clase 10 - Stream Processing"
+  Owner       = "tu-nombre"
+}
